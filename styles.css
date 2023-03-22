@@ -1,0 +1,61 @@
+.brand-img{
+    margin: 20px;
+}
+title{
+    margin: auto;
+}
+
+#title{
+  background-color: #CFE8EF;  
+  color: #04435A;
+}
+.phone{
+    width: 120%;
+}
+h2{
+    font-family: 'Manjari', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Manjari', sans-serif;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+img{
+    width: 10%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 60px;
+   
+}
+.feature-box{
+    padding: 3% 10%;
+}
+p{
+    color: #04435A;
+    font-family: 'Manjari', sans-serif;
+    line-height: 1.5;
+    font-size: larger;
+}
+
+h3{
+    color: #04435A;
+    font-family: 'Manjari', sans-serif;  
+}
