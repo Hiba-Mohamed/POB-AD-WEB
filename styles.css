@@ -45,17 +45,23 @@ img{
     padding-bottom: 60px;
    
 }
-.feature-box{
-    padding: 3% 10%;
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
 }
+
 p{
     color: #04435A;
     font-family: 'Manjari', sans-serif;
     line-height: 1.5;
-    font-size: larger;
+    font-size: x-large;
 }
 
 h3{
     color: #04435A;
     font-family: 'Manjari', sans-serif;  
+    font-size: 2rem
 }
