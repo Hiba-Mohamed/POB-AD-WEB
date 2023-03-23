@@ -1,13 +1,23 @@
-.brand-img{
-    margin: 20px;
+.brand-image{
+    margin: 0;
+    padding: 0%;
+    float: left;
 }
 title{
     margin: auto;
+}
+.page-top{
+background-color: #04435A;
+padding: 2%;
+
+
 }
 
 #title{
   background-color: #CFE8EF;  
   color: #04435A;
+  margin: 0%;
+  padding: 0;
 }
 .phone{
     width: 120%;
@@ -20,13 +30,20 @@ h2{
 .container-fluid{
     padding: 3% 10%;
 }
+#navigation{
+    float:right;
+}
 
 .navbar{
     padding-bottom: 4.5rem;
 }
 
 .nav-item{
-    padding: 0 18px;
+    display: block;
+    background-color: #CFE8EF;
+    padding: 1%;
+    margin: 0%;
+ 
 }
 
 .nav-link{
@@ -38,13 +55,35 @@ h2{
     margin: 5% 3% 5% 0%;
 }
 
-img{
+.side-icon{
     width: 10%;
     float: left;
     padding: 20px;
     padding-bottom: 60px;
    
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #04435A;
+    float: right;
+   
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    background-color: #04435A;
+  }
 
 
 article{
@@ -65,3 +104,4 @@ h3{
     font-family: 'Manjari', sans-serif;  
     font-size: 2rem
 }
+
