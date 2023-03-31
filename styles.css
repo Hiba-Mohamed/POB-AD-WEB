@@ -107,13 +107,7 @@ h2{
     margin: 5% 3% 5% 0%;
 }
 
-.side-icon{
-    width: 10%;
-    float: left;
-    padding: 20px;
-    padding-bottom: 60px;
-   
-}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -137,6 +131,12 @@ ul{
     background-color: #04435A;
   }
 
+  .side-icon{
+    width: 10%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 60px;   
+}
 
 article{
     display: flex;
