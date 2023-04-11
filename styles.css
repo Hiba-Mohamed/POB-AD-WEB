@@ -80,7 +80,6 @@ padding: 2%;
     align-self: flex-start;
     margin: 0;
     padding: 0;
-    width: 1000px;
     flex-basis: 0;
     flex-grow: 1;
     padding-bottom: 60px;
@@ -157,11 +156,10 @@ ul{
     background-color: #04435A;
   }
 
-  .side-icon{
-    width: 10%;
-    float: left;
-    padding: 20px;
-    padding-bottom: 60px;   
+
+.side-icon{
+  width: 120px;
+  padding-top: 50px;
 }
 
 article{
@@ -175,6 +173,13 @@ summary{
     font-family: 'Manjari', sans-serif;
     line-height: 1.5;
     font-size: x-large;
+}
+
+details{
+  color: #04435A;
+  font-family: 'Manjari', sans-serif;
+  line-height: 1.5;
+  font-size: x-large;
 }
 
 h3{
