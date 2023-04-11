@@ -50,6 +50,10 @@ padding: 2%;
     text-decoration: none;
     display: block;
   }
+  .row{
+    display: flex;
+    justify-content: center;
+  }
 
   .download-button{
     background-color: #04435A;
@@ -60,11 +64,33 @@ padding: 2%;
     font-size: 20px;
   }
 
-  .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+  section{
+    padding: 20px;
   }
+
+  .feature-box{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  figure{
+    align-self: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-bottom: 60px;
+  }
+
+  article{
+    flex-grow: 3;
+    
+  }
+
 #title{
   background-color: #CFE8EF;  
   color: #04435A;
@@ -144,7 +170,7 @@ article{
     padding: 3%;
 }
 
-p{
+summary{
     color: #04435A;
     font-family: 'Manjari', sans-serif;
     line-height: 1.5;
