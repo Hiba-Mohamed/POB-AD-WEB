@@ -74,6 +74,7 @@ padding: 2%;
     flex-direction: row;
     justify-content: center;
     align-items: start;
+    padding: 0 10% 0 10%;
   }
 
   figure{
@@ -133,7 +134,7 @@ h2{
 }
 
 
-ul{
+#myDropdown{
     list-style-type: none;
     margin: 0;
     padding: 0%;
@@ -143,11 +144,11 @@ ul{
    
 }
   
-  li {
+  .nav-item {
     float: left;
   }
   
-  li a {
+  .nav-link {
     display: block;
     color: white;
     text-align: center;
@@ -156,6 +157,18 @@ ul{
     background-color: #04435A;
   }
 
+p{
+  color: #04435A;
+    font-family: 'Manjari', sans-serif;
+    line-height: 1.5;
+    font-size: x-large;
+}
+#why{
+  color: #04435A;
+  font-family: 'Manjari', sans-serif;
+  line-height: 1.5;
+  font-size: x-large;
+}
 
 .side-icon{
   width: 120px;
@@ -175,16 +188,27 @@ summary{
     font-size: x-large;
 }
 
-details{
-  color: #04435A;
-  font-family: 'Manjari', sans-serif;
-  line-height: 1.5;
-  font-size: x-large;
-}
 
 h3{
     color: #04435A;
     font-family: 'Manjari', sans-serif;  
     font-size: 2rem
 }
+h4{
+  color: #04435A;
+  font-family: 'Manjari', sans-serif;  
+  font-size: 1.5rem
+}
+p{
+  padding: 0 10% 0 10%;
+}
+.list{
+  padding: 0 10% 0 10%;
+}
+
+.POB-pic{
+
+}
+
+
 
